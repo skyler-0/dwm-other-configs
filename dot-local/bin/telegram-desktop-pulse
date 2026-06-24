@@ -1,0 +1,2 @@
+#!/bin/bash
+ALSOFT_DRIVERS=pulse /sbin/Telegram

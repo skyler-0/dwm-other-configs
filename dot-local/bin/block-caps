@@ -1,0 +1,6 @@
+caps_lock_status=$(xset -q | sed -n 's/^.*Caps Lock:\s*\(\S*\).*$/\1/p')
+if [ $caps_lock_status == "on" ]; then
+  echo "Caps lock on"
+else
+  echo "Caps lock off"
+fi

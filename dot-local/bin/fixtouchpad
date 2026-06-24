@@ -1,0 +1,4 @@
+#!/bin/bash
+xinput set-prop 12 326 1
+xinput set-prop 12 333 1
+xinput set-prop 12 341 0

@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/skyler/repo/dwm-rice-2/dwm'
+let g:netrw_dirhist_6='/home/skyler/repo/dwm-rice-2'
+let g:netrw_dirhist_5='/home/skyler/.config/discord'
+let g:netrw_dirhist_4='/home/skyler/.local/bin'
+let g:netrw_dirhist_3='/etc'
+let g:netrw_dirhist_2='/etc/NetworkManager'
+let g:netrw_dirhist_1='/etc/NetworkManager/dnsmasq.d'
+let g:netrw_dirhist_0='/etc/NetworkManager'
+let g:netrw_dirhist_9='/etc/NetworkManager/system-connections'
+let g:netrw_dirhist_8='/etc/NetworkManager'

@@ -1,9 +1,9 @@
 #!/bin/bash
 
-WALLPAPER_NUMBER=004
+WALLPAPER_NUMBER=030
 
 wal -c
 wal -i /home/skyler/.wallpapers/wallpaper-$WALLPAPER_NUMBER.jpg
 wallset -u $WALLPAPER_NUMBER
 
-xdotool key super+F5
+#xdotool key super+F5

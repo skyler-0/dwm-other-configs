@@ -1,0 +1,9 @@
+pactl load-module module-remap-sink \
+    sink_name=mono_left \
+    sink_properties="device.description='Mono_Left_Only'" \
+    master=$(pactl get-default-sink) \
+    channels=2 \
+    master_channel_map=front-left,front-left \
+    channel_map=front-left,front-right
+
+pactl set-defaul-sink module-remap-sink.c

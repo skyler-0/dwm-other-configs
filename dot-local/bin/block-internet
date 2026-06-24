@@ -38,6 +38,6 @@ else
 fi
 
 # TUN
-[ -n "$(cat /sys/class/net/tun*/operstate 2>/dev/null)" ] && tunicon=" 🔒" ];
+[ -n "$(cat /sys/class/net/tun*/operstate 2>/dev/null)" ] && tunicon=" 🔒";
 
 printf "%s%s%s\n" "$wifiicon" "$ethericon" "$tunicon"
